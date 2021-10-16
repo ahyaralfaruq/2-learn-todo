@@ -8,7 +8,7 @@
 }
 .result-field {
     width: 100%;
-    font-size: var(--fs-basic,14px);
+    font-size: var(--fs-md,18px);
     line-height: 20px;
     margin-left: 5px;
     word-break: break-word;
@@ -23,5 +23,25 @@
     cursor: pointer;
 }
 .button-cancel {
-    font-size: 14px !important;
+    font-size: var(--fs-md,18px) !important;
 }
+
+@media (min-width : 0) and (max-width : 575px) {
+    /* screen 576px */
+    .result-field {
+        font-size : var(--fs-basic,14px);
+    }
+    .button-cancel {
+        font-size : var(--fs-basic,14px);
+    }
+}
+@media (min-width : 576px) and (max-width : 767px) {
+    /* screen 768px */
+    .result-field {
+        font-size : var(--fs-normal,16px);
+    }
+    .button-cancel {
+        font-size : var(--fs-normal,16px);
+    }
+}
+  
