@@ -1,0 +1,15 @@
+.todo-list-wrapper {
+    width: 90%;
+    min-height: calc(100% - 120px);
+    overflow-y: auto;
+    list-style: none;
+}
+.todo-list-wrapper::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+    background: var(--gray-transparent,#e5e7e9);
+}
+.todo-list-wrapper::-webkit-scrollbar-thumb {
+    background: var(--disable,rgba(49,53,59,.68));
+    border-radius: 10px;
+}

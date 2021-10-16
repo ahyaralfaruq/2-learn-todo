@@ -1,0 +1,27 @@
+.todo-result {
+    display: flex;
+    align-items: center;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: var(--gray-dark,#f3f4f5);
+}
+.result-field {
+    width: 100%;
+    font-size: var(--fs-basic,14px);
+    line-height: 20px;
+    margin-left: 5px;
+    word-break: break-word;
+}
+.remove-button {
+    float: right;
+}
+.todo-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+.button-cancel {
+    font-size: 14px !important;
+}
