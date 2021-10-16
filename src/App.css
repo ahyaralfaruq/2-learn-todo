@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  width: 370px;
+  width: 580px;
   height: 100%;
   margin: auto;
   box-shadow: var(--shadow-basic,rgba(49, 53, 59, .12) 0px 1px 6px 0);
