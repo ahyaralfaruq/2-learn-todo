@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-@media (min-width : 375px) {
+@media (min-width : 320px) {
   .App {
     padding: 0;
   }
