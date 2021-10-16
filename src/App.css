@@ -39,7 +39,7 @@
     font-size : var(--fs-lg,20px);
   }
 }
-@media (min-width : 576) and (max-width : 767px) {
+@media (min-width : 576px) and (max-width : 767px) {
   /* screen 768px */
   .App {
     padding: 20px;
