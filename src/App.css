@@ -18,7 +18,7 @@
   border-radius: 12px;
 }
 .todo-title {
-  font-size: clamp(var(--fs-lg,20px),var(--fs-xl, 24px),var(--fs-xxl,32px));
+  font-size: var(--fs-xxl,32px);
   font-weight: var(--fw-bold,600);
   color: var(--dark,rgba(49, 53, 59,.96));
   font-family: var(--ff-ss,'Open Sans',sans-serif);
@@ -27,7 +27,8 @@
   text-align: center;
 }
 
-@media (min-width : 320px) {
+@media (min-width : 0) and (max-width : 575px) {
+  /* screen 576px */
   .App {
     padding: 0;
   }
@@ -38,12 +39,13 @@
     font-size : var(--fs-lg,20px);
   }
 }
-@media (min-width : 767px) {
+@media (min-width : 576) and (max-width : 767px) {
+  /* screen 768px */
   .App {
     padding: 20px;
   }
   .App-header {
-    width: 370px;
+    width: 460px;
   }
   .todo-title {
     font-size : var(--fs-xl,24px);
